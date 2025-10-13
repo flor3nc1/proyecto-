@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css">
+     <title>Register</title>
+</head>
+<body bgcolor="pink">
+ 
+  <!-- HTML form with username and password inputs -->
+
+  <h2>Register</h2> 
+   
+ <div class="reg" >   
+
+  <form id="registerForm" action="register.php" method="POST">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required />
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required />
+
+    <button class="button2" type="submit">Submit</button>
+    <div id="feedback" class="error"></div>
+
+    <br>
+
+    <a href="login.html">Already have an account? Login here </a>
+
+  </form>
+  </div>  
+
+  <script src="iniciosecion.js"> </script>
+</body>
+</html>  
+
+
+
+    
