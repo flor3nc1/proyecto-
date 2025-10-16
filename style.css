@@ -327,3 +327,33 @@ text-decoration: none;
  
 }
 
+.img_style_car{
+
+justify-content: center;
+width: 80px;   /* mucho más chica */
+height: 900px;
+margin-top: -200px; 
+display: flex;
+margin-left: 600px;
+
+}
+
+
+.flecha-volver {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #b64b69; /* rosado oscuro */
+  background-color: #ff93b2; /* rosita suave */
+  padding: 8px 12px;
+  border-radius: 50px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.flecha-volver:hover {
+  background-color: #f4b8c4;
+  transform: scale(1.1);
+}
